@@ -46,11 +46,12 @@ Every single one of the 9 channels has its own protection and status loop:
 
 ## 📊 Bill of Materials (BOM)
 
-| Component Description | Quantity | Package Type | Purpose / Function | Part Link |
-| :--- | :---: | :--- | :--- | :--- |
-| 12V DC Coil Industrial Relay (OEN 58 / Vicco style) | 9 | 5-Pin THT | Switches heavy-duty motor/brake loads | [View Item Link]() |
-| 1N4007 Rectifier Diode | 9 | DO-41 Axial | Flyback voltage spike protection | [View Item Link]() |
-| 3mm Red LED | 9 | Radial THT | Visual status indicator for coil power | [View Item Link]() |
-| 10kΩ Resistor | 9 | Axial THT | Current limiting for the indicator LED | [View Item Link]() |
-| 2-Pin Screw Terminal Blocks (5.08mm) | 9 | THT | Secure control signal inputs | [View Item Link]() |
-| 3-Pin Screw Terminal Blocks (5.08mm) | 9 | THT | High-voltage load outputs (COM/NO/NC) | [View Item Link]() |
+| Component Reference Designator | Component Description | Quantity | Package / Footprint Type | Purpose / Function | Part Link |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| RELAY1, RELAY2, RELAY3, RELAY4, RELAY5, RELAY6 | 12V DC Industrial Relays (SLOW, COM, LIL, CIL, FAN, INS) | 6 | 5-Pin Square THT | Control-side logic switching and signaling circuits | [View Item Link]() |
+| K1, K2, K3, K4 | 12V DC Power Relays (UP, DOWN, BRAKE, RAM) | 4 | 4-Pin / Dual-Line Rectangular THT | Switches heavy-duty motor, brake, and directional coils | [View Item Link]() |
+| Diodes (D10 - D19) | 1N4007 Rectifier Diodes | 10 | DO-41 (Axial Through-Hole) | Flyback voltage spike suppression across relay coils | [View Item Link]() |
+| LEDs (U1 - U10) | 3mm Red LEDs | 10 | Radial THT (2.54mm pitch) | Individual channel active status indicators | [View Item Link]() |
+| Resistors (R10 - R19) | 10kΩ Resistors | 10 | Axial Through-Hole | Current-limiting resistors for status circuits | [View Item Link]() |
+| Terminal Blocks | 2-Pin Screw Terminal Blocks | 11 | THT (5.08mm pitch) | Secure wire connections for signal lines and low power | [View Item Link]() |
+| Terminal Blocks | 3-Pin Screw Terminal Blocks | 3 | THT (5.08mm pitch) | High-voltage/high-current terminal load outputs | [View Item Link]() |
