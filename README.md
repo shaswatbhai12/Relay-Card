@@ -8,7 +8,7 @@ An industrial-grade, high-reliability 9-channel relay control board designed to 
 ![3D PCB View](Production/3D_PCB1_2026-05-09.png) 
 
 ### Full Assembly & Enclosure
-![Full Assembly View](Schemetic/SCH_Schematic1_1-P1_2026-05-18.jpg)
+![Full Assembly View](Schemetic/SCH_Schematic1_1-P1_2026-05-18.png)
 
 ---
 
