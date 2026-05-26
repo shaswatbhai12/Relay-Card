@@ -46,8 +46,8 @@ Every single one of the 9 channels has its own protection and status loop:
 
 ## 📊 Bill of Materials (BOM)
 
-| Component Reference Designator | Component Description | Quantity | Package / Footprint Type | Purpose / Function | Part Link |
-| :--- | :--- | :---: | :--- | :--- | :--- |
+| Component Reference Designator | Component Description | Quantity | Package / Footprint Type | Purpose / Function |
+| :--- | :--- | :---: | :--- | :--- |
 | RELAY1, RELAY2, RELAY3, RELAY4, RELAY5, RELAY6 | 12V DC Industrial Relays (SLOW, COM, LIL, CIL, FAN, INS) | 6 | 5-Pin Square THT | Control-side logic switching and signaling circuits | 
 | K1, K2, K3, K4 | 12V DC Power Relays (UP, DOWN, BRAKE, RAM) | 4 | 4-Pin / Dual-Line Rectangular THT | Switches heavy-duty motor, brake, and directional coils | 
 | Diodes (D10 - D19) | 1N4007 Rectifier Diodes | 10 | DO-41 (Axial Through-Hole) | Flyback voltage spike suppression across relay coils | 
