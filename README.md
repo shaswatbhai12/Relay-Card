@@ -48,10 +48,10 @@ Every single one of the 9 channels has its own protection and status loop:
 
 | Component Reference Designator | Component Description | Quantity | Package / Footprint Type | Purpose / Function | Part Link |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| RELAY1, RELAY2, RELAY3, RELAY4, RELAY5, RELAY6 | 12V DC Industrial Relays (SLOW, COM, LIL, CIL, FAN, INS) | 6 | 5-Pin Square THT | Control-side logic switching and signaling circuits | [View Item Link]() |
-| K1, K2, K3, K4 | 12V DC Power Relays (UP, DOWN, BRAKE, RAM) | 4 | 4-Pin / Dual-Line Rectangular THT | Switches heavy-duty motor, brake, and directional coils | [View Item Link]() |
-| Diodes (D10 - D19) | 1N4007 Rectifier Diodes | 10 | DO-41 (Axial Through-Hole) | Flyback voltage spike suppression across relay coils | [View Item Link]() |
-| LEDs (U1 - U10) | 3mm Red LEDs | 10 | Radial THT (2.54mm pitch) | Individual channel active status indicators | [View Item Link]() |
-| Resistors (R10 - R19) | 10kΩ Resistors | 10 | Axial Through-Hole | Current-limiting resistors for status circuits | [View Item Link]() |
-| Terminal Blocks | 2-Pin Screw Terminal Blocks | 11 | THT (5.08mm pitch) | Secure wire connections for signal lines and low power | [View Item Link]() |
-| Terminal Blocks | 3-Pin Screw Terminal Blocks | 3 | THT (5.08mm pitch) | High-voltage/high-current terminal load outputs | [View Item Link]() |
+| RELAY1, RELAY2, RELAY3, RELAY4, RELAY5, RELAY6 | 12V DC Industrial Relays (SLOW, COM, LIL, CIL, FAN, INS) | 6 | 5-Pin Square THT | Control-side logic switching and signaling circuits | 
+| K1, K2, K3, K4 | 12V DC Power Relays (UP, DOWN, BRAKE, RAM) | 4 | 4-Pin / Dual-Line Rectangular THT | Switches heavy-duty motor, brake, and directional coils | 
+| Diodes (D10 - D19) | 1N4007 Rectifier Diodes | 10 | DO-41 (Axial Through-Hole) | Flyback voltage spike suppression across relay coils | 
+| LEDs (U1 - U10) | 3mm Red LEDs | 10 | Radial THT (2.54mm pitch) | Individual channel active status indicators | 
+| Resistors (R10 - R19) | 10kΩ Resistors | 10 | Axial Through-Hole | Current-limiting resistors for status circuits | 
+| Terminal Blocks | 2-Pin Screw Terminal Blocks | 11 | THT (5.08mm pitch) | Secure wire connections for signal lines and low power | 
+| Terminal Blocks | 3-Pin Screw Terminal Blocks | 3 | THT (5.08mm pitch) | High-voltage/high-current terminal load outputs |
