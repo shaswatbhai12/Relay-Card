@@ -11,7 +11,7 @@ An industrial-grade, high-reliability 9-channel relay control board designed to 
 ![Full Assembly View](Schemetic/SCH_Schematic1_1-P1_2026-05-18.png)
 
 ### PCB Layout
-![PCB Layout PDF](PCB/PCB_PCB1_2026-05-18.pdf)
+![PCB Layout PDF](Screenshorts/Screenshots/Screenshot 2026-05-18 173530.png)
 
 ---
 
