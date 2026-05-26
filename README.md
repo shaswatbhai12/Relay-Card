@@ -11,7 +11,7 @@ I wanted to design a replication of the durable cards used in real industrial el
 ## 📸 Project Gallery
 
 ### 3D Project Render
-![3D PCB View](production/3D_PCB1_2026-05-09.png)
+![3D PCB View](Production/3D_PCB1_2026-05-09.png)
 
 ### PCB Layout & Routing Traces
 ![PCB Routing View](Screenshots/Screenshot%202026-05-18%20173530.png)
