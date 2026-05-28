@@ -9,7 +9,7 @@ This is a close up of my trace layout:
 ![PCB Routing View](Screenshots/Screenshot%202026-05-18%20173530.png)
 
 And here is my schematic layout from EasyEDA:
-![Circuit Schematic](Screenshots/SCH_Schematic1_1-P1_2026-05-18)
+![Circuit Schematic](Screenshots/SCH_Schematic1_1-P1_2026-05-18.png)
 
 ### How I designed it
 I used two different types of relays for this board. There are 6 square 5-pin relays for the control logic (handling things like slow speed, common signals, the fan, etc.), and 4 rectangular power relays to handle the heavier directions and brakes (UP, DOWN, BRAKE, RAM).
