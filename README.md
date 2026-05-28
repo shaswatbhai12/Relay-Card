@@ -3,13 +3,13 @@
 Hey, I built this custom relay board to replicate the heavy-duty cards used in real elevator/lift control setups. I noticed that generic relay boards you buy online are way too fragile and use jumper wires that easily shake loose under continuous vibration. I wanted to make something way tougher using through-hole parts and screw terminals so the wires stay locked in place.
 
 Here is the 3D view of my board:
-![3D PCB View](production/3D_PCB1_2026-05-09.png)
+![3D PCB View](Production/3D_PCB1_2026-05-09.png)
 
 This is a close up of my trace layout:
 ![PCB Routing View](Screenshots/Screenshot%202026-05-18%20173530.png)
 
 And here is my schematic layout from EasyEDA:
-![Circuit Schematic](Screenshorts/SCH_Schematic1_1-P1_2026-05-18)
+![Circuit Schematic](Screenshots/SCH_Schematic1_1-P1_2026-05-18)
 
 ### How I designed it
 I used two different types of relays for this board. There are 6 square 5-pin relays for the control logic (handling things like slow speed, common signals, the fan, etc.), and 4 rectangular power relays to handle the heavier directions and brakes (UP, DOWN, BRAKE, RAM).
